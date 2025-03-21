@@ -9,7 +9,9 @@
     <div class="d-flex gap-3">
       <%= link_to "Settings", edit_user_registration_path %>
       <%= link_to "Profile", "#profile" %>
+      <%= link_to "Post a proudct", new_product_path %>
       <%= button_to "Logout", destroy_user_session_path, method: :delete %>
+
     </div>
 
     <% else %>
